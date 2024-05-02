@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>University website</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="imgs/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="ri-close-line icons" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">ABOUT</a></li>
+                    <li><a href="index.html">COURSE</a></li>
+                    <li><a href="index.html">BLOG</a></li>
+                    <li><a href="index.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="ri-menu-line icons" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>CodeLover CodeLover CodeLover, html and css website test design testing frontend project.<br />
+                CodeLover CodeLover i will become agreate programmer, i will become agreate programer</p>
+
+            <a href="" class="hero-btn">Vist Us To Know More</a>
+        </div>
+    </section>
+
+    <!-- end of header -->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate itaque cupiditate.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 sint illo nihil provident explicabo consectetur nam! Facilis, adipisci. 
+                 Omnis nesciunt earum necessitatibus minima iste.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 sint illo nihil provident explicabo consectetur nam! Facilis, adipisci. 
+                 Omnis nesciunt earum necessitatibus minima iste.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 sint illo nihil provident explicabo consectetur nam! Facilis, adipisci. 
+                 Omnis nesciunt earum necessitatibus minima iste.</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- end of section for course -->
+
+<section class="campus">
+<h1>Our Global campus</h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+<div class="row">
+<div class="col-campus">
+    <img src="imgs/london.png" alt="">
+    <div class="layer">
+        <h3>LONDON</h3>   
+    </div>
+</div>
+
+<div class="col-campus">
+    <img src="imgs/washington.png" alt="">
+    <div class="layer">
+        <h3>WASHINGTON</h3> 
+    </div>
+</div>
+
+<div class="col-campus">
+    <img src="imgs/newyork.png" alt="">
+    <div class="layer">
+        <h3>NEWYORK</h3>  
+    </div>
+</div>
+</div>
+</section>
+
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="col-facilities">
+            <img src="imgs/library.png" alt="">
+            <h3>World Class library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Possimus fuga similique iste qui, odio quod accusantium.</p>
+        </div>
+
+            <div class="col-facilities">
+                <img src="imgs/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Possimus fuga similique iste qui, odio quod accusantium.</p>
+            </div>
+
+                <div class="col-facilities">
+                    <img src="imgs/basketball.png" alt="">
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Possimus fuga similique iste qui, odio quod accusantium.</p>
+                </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+    <!-- javaScript logic -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
